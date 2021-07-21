@@ -1,0 +1,32 @@
+{
+  "name": "realtime-pizza-app",
+  "version": "1.0.0",
+  "description": "this is real time pizza app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "pawan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "connect-mongo": "^4.4.1",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.23",
+    "nodemon": "^2.0.7",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0"
+  }
+}
